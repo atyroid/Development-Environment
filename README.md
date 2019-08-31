@@ -46,7 +46,7 @@
 	- Gitkraken
 	- Jest (`yarn global add jest` or `npm install jest --global`)
 	- watchman
-	- react-devtools
+	- react-devtools (`yarn global add react-devtools`)
 	- SdkMan (to install Java and Gradle)
 	
 - initEnv script it used for the first time then the script will check and mantain the enviroment through ~/.bash-atyroid for each time you login to your laptop or open a new terminal
