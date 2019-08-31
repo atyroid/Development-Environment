@@ -9,6 +9,10 @@ rm -f $SCRIPTS_HOME
 SCRIPTS_SOURCE=$SOURCE_HOME/Development-Environment/scripts
 ln -s $SCRIPTS_SOURCE $SCRIPTS_HOME
 
+# add .bash_atyroid to .bashrc
+cat /etc/skel/.bashrc > ~/.bashrc
+cat $SCRIPTS_HOME/bash_atyroid_text >> ~/.bashrc
+
 # Add scripts directory to path
 export PATH=$PATH:$SCRIPTS_HOME
 
@@ -23,3 +27,6 @@ linkFiles
 
 # create files
 createFiles
+
+# source .bashrc
+source ~/.bashrc
