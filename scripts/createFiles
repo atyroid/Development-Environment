@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# list of files and directories to create them
+files[0]="apps64"
+files[1]=".bashrc-user-specific"
+files[2]=".bash-aliases-user-specifics"
+
+# type of each file
+types[0]="d"
+types[1]="-"
+types[2]="-"
+
+# Import helper functions
+source $SCRIPTS_HOME/functions.sh
+
+# create nedeed files and directories in home path
+create $files $types
