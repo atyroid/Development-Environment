@@ -14,13 +14,7 @@
 
 	`git clone https://github.com/atyroid/Development-Environment.git`
 
-4. Add these lines to `~/.bashrc`
-
-		if [ -f ~/.bash_atyroid ]; then
-			. ~/.bash_atyroid
-		fi
-
-6.  Execute this script
+4.  Execute this script
 
 	`~/source/Development-Environment/scripts/initEnv`
 
