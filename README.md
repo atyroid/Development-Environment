@@ -3,7 +3,7 @@
 
 ## Description
 	
-Bash files to setup your enviroment and scripts to install needed tools
+Bash files to setup your enviroment, aliases to speed your work and scripts to install needed tools
 	
 ## Usage
 
@@ -27,25 +27,18 @@ Bash files to setup your enviroment and scripts to install needed tools
 	
 - JetBrains ToolBox
 
-	- Change install location to ~/apps64/JetBrains/Toolbox
+	- Change install location to `~/apps64/JetBrains/Toolbox`
 	- Enable keep only the latest version
 	- Enable Generate Shell scripts
 	- Change shell scripts location to ~/bin
 	
 - Intellij IDEA
 - WebStorm
-- Android Studio (change install location of Android Sdk to ~/apps64/AndroidSdk)
+- Android Studio (change install location of Android Sdk to `~/apps64/AndroidSdk`)
 - Tools in scripts/install
-	
-## Notes
-- .bash-aliases containes aliases that speed your work
 
-- Use ~/.bash_aliases_user_specifics to add more aliases
-
-- Don't override ~/.bash_atyroid use ~/.bashrc_user_specific
-
-- Install directory in scripts containe scripts to install:
-	
+## Install directory
+It contains scripts to install:
 	- git
 	- watchman
 	- nvm (Node Version Manager)
@@ -57,8 +50,18 @@ Bash files to setup your enviroment and scripts to install needed tools
 	- java (installed using sdkman)
 	- gradle (installed using sdkman)
 	- jq (Bash Json Processor)
+	
+## Notes
+- `.bash_aliases` containes aliases that speed your work. **You need to check them**
 
+- Use `~/.bash_aliases_user_specifics` to add more aliases
 
+- Use `~/.bashrc_user_specific` to add user specific enviroment setup
+
+- You need to add two Virtual Devices:
+	- Big screen device with name **Nexus_5X_API_29**
+	- Small screen device with name **Nexus_S_API_29**
+	
 ## Unfinshied work
 - Group installation in one script 
 - Add script to configure VM acceleration
