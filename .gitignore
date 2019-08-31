@@ -1,2 +1,2 @@
-# uncomment .gitignore to use it as suppressor for incomplete files
-#.gitignore
+# Use .gitignore as suppressor for incomplete files
+.gitignore
