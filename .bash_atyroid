@@ -26,12 +26,12 @@ export SOURCE_HOME="~/source"
 export SCRIPTS_HOME="~/scripts"
 export PATH=$PATH:$SCRIPTS_HOME 
 
-# any user-specific customizations should go into ~/.bashrc-user-specific
-if [ -e ~/.bashrc-user-specific ]; then
-    . ~/.bashrc-user-specific
+# any user-specific customizations should go into ~/.bashrc_user_specific
+if [ -e ~/.bashrc_user_specific ]; then
+    . ~/.bashrc_user_specific
 fi
 
-# any user-specific aliases should go into ~/.bash-aliases-user-specific
-if [ -e ~/.bash-aliases-user-specific ]; then
-    . ~/.bash-aliases-user-specific
+# any user-specific aliases should go into ~/.bash_aliases_user_specific
+if [ -e ~/.bash_aliases_user_specific ]; then
+    . ~/.bash_aliases_user_specific
 fi

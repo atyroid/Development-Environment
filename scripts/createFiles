@@ -2,8 +2,8 @@
 
 # list of files and directories to create them
 files[0]="apps64"
-files[1]=".bashrc-user-specific"
-files[2]=".bash-aliases-user-specifics"
+files[1]=".bashrc_user_specific"
+files[2]=".bash_aliases_user_specifics"
 
 # type of each file
 types[0]="d"

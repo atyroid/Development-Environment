@@ -15,6 +15,9 @@ alias rns="adb reverse tcp:8081 tcp:8081 && watchman watch-del-all && react-nati
 alias rnrios="react-native run-ios --simulator='iPhone X'"
 alias rnrandroid="react-native run-android"
 
+# NodeJs
+alias node=nodejs
+
 # Npm
 alias resetnpm="rm package-lock.json && rm -rf node_modules && npm i"
 alias npmd="npm view '$1' dist-tags"

@@ -2,8 +2,8 @@
 
 # list of files and directories to link them
 files[0]="scripts"
-files[1]=".bash-atyroid"
-files[2]=".bash-aliases"
+files[1]=".bash_atyroid"
+files[2]=".bash_aliases"
 
 # Import helper functions
 source $SCRIPTS_HOME/functions.sh
