@@ -1,0 +1,4 @@
+#!/bin/bash
+
+tar zcvf ~/sdkman-backup_$(date +%F-%kh%M).tar.gz -C ~/ $SDKMAN_DIR
+rm -rf $SDKMAN_DIR
