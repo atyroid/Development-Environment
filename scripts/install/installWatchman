@@ -1,0 +1,12 @@
+#!/bin/bash
+
+sudo apt-get install libssl-dev, autoconf, automake, libtool and python-dev
+
+
+git clone https://github.com/facebook/watchman.git
+cd watchman
+git checkout v4.9.0  # the latest stable release
+./autogen.sh
+./configure --enable-lenient
+make
+sudo make install
