@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Make SOURCE_HOME and SCRIPTS_HOME avilable globally
+export SOURCE_HOME=$HOME/source
+export SCRIPTS_HOME=$HOME/scripts
+
+# link scripts directory
+rm -f $SCRIPTS_HOME
+SCRIPTS_SOURCE=$SOURCE_HOME/Development-Environment/scripts
+ln -s $SCRIPTS_SOURCE $SCRIPTS_HOME
+
+# Add scripts directory to path
+export PATH=$PATH:$SCRIPTS_HOME
+
+# Import helper functions
+#source $SCRIPTS_HOME/functions.sh
+
+# remove unneeded variables
+unset SCRIPTS_SOURCE
+
+# link files
+linkFiles
+
+# create files
+createFiles
