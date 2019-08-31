@@ -59,6 +59,7 @@ Bash files to setup your enviroment and scripts to install needed tools
 	- sdkman
 	- java (installed using sdkman)
 	- gradle (installed using sdkman)
+	- jq (Bash Json Processor)
 
 
 ## Unfinshied work
