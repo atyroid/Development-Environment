@@ -1,5 +1,6 @@
 # Development-Environment
 
+
 ## Description
 	
 Bash files to setup your enviroment and scripts to install needed tools
@@ -33,14 +34,10 @@ Bash files to setup your enviroment and scripts to install needed tools
 	
 - Intellij IDEA
 - WebStorm
-- Android Studio
+- Android Studio (change install location of Android Sdk to ~/apps64/AndroidSdk)
 - Tools in scripts/install
 	
 ## Notes
-- You must make a link in apps64 for each of:
-	- AndroidSdk
-	- AndroidStudio
-	
 - .bash-aliases containes aliases that speed your work
 
 - Use ~/.bash_aliases_user_specifics to add more aliases
@@ -65,6 +62,6 @@ Bash files to setup your enviroment and scripts to install needed tools
 ## Unfinshied work
 - Group installation in one script 
 - Add script to configure VM acceleration
-- Make links for IDEs and AndroidSdk in apps64
+- Make links for IDEs in apps64
 - Check some of configurations if they already done to boost performance of scripts
 - Add scripts for Debugger tool
