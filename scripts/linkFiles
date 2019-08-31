@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# list of files and directories to link them
+files[0]="scripts"
+files[1]=".bash-atyroid"
+files[2]=".bash-aliases"
+
+# Import helper functions
+source $SCRIPTS_HOME/functions.sh
+
+# link needed files and directories in home path
+links $files
