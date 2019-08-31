@@ -4,15 +4,15 @@
 
 1. Create source directory
 
-`mkdir ~/source`
+	`mkdir ~/source`
 
 2. Go to source directory
 
-`cd ~/source`
+	`cd ~/source`
 
 3. Clone this repo to source directory
 
-`git clone https://github.com/atyroid/Development-Environment.git`
+	`git clone https://github.com/atyroid/Development-Environment.git`
 
 4. Add these lines to `~/.bashrc`
 
@@ -22,4 +22,4 @@
 
 6.  Execute this script
 
-`~/source/Development-Environment/scripts/initEnv`
+	`~/source/Development-Environment/scripts/initEnv`
