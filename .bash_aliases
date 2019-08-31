@@ -1,5 +1,5 @@
 # General
-alias ws="nohup $APPS_DIR/Jetbrains/Toolbox/apps/WebStorm/bin/webstorm.sh & disown"
+alias ws="nohup $APPS_DIR/WebStorm/bin/webstorm.sh & disown"
 alias scripts="cat package.json | jq -r '.scripts'"
 alias hgrep="history | grep $1"
 alias lzip="unzip -l"
@@ -17,8 +17,6 @@ alias rnrandroid="react-native run-android"
 
 # Npm
 alias resetnpm="rm package-lock.json && rm -rf node_modules && npm i"
-alias npmd="npm view '$1' dist-tags"
-
 
 # uncomment this when we have private npm reporistory
 #alias npmpublic="npm config set registry https://registry.npmjs.org/"
@@ -27,10 +25,6 @@ alias npmd="npm view '$1' dist-tags"
 
 # Yarn
 alias resetyarn="rm yarn.lock && rm -rf node_modules && yarn"
-
-# ToDo: Solve problem in pass $1
-#alias yarnd="yarn info $1 dist-tags"
-
 
 # Android
 alias rvrs="adb reverse tcp:8081 tcp:8081"
