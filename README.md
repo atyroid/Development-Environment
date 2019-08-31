@@ -16,8 +16,8 @@
 
 4. Add these lines to `~/.bashrc`
 
-		if [ -f ~/.bash-atyroid ]; then
-			. ~/.bash-atyroid
+		if [ -f ~/.bash_atyroid ]; then
+			. ~/.bash_atyroid
 		fi
 
 6.  Execute this script
@@ -35,7 +35,7 @@
 
 - Use ~/.bash-aliases-user-specifics to add more aliases
 
-- Don't override ~/.bash-atyroid use ~/.bashrc-user-specific
+- Don't override ~/.bash_atyroid use ~/.bashrc_user_specific
 
 - Install these tools:
 	- JetBrains ToolBox
@@ -49,4 +49,4 @@
 	- react-devtools (`yarn global add react-devtools`)
 	- SdkMan (to install Java and Gradle)
 	
-- initEnv script it used for the first time then the script will check and mantain the enviroment through ~/.bash-atyroid for each time you login to your laptop or open a new terminal
+- initEnv script it used for the first time then the script will check and mantain the enviroment through ~/.bash_atyroid for each time you login to your laptop or open a new terminal
