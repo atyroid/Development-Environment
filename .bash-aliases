@@ -33,7 +33,7 @@ alias resetyarn="rm yarn.lock && rm -rf node_modules && yarn"
 
 
 # Android
-alias rvrs="adb reverse tcp:808 tcp:8081"
+alias rvrs="adb reverse tcp:8081 tcp:8081"
 alias android_big="emulator -avd Nexus_5X_API_29"
 alias android_small="emulator -avd Nexus_S_API_29"
 alias as="nohup $APPSDIR/AndroidStudio/bin/studio.sh & disown"

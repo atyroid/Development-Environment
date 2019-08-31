@@ -10,10 +10,10 @@ shopt -s histappend histreedit cmdhist checkwinsize
 export APPSDIR="~/apps64"
 
 # Java
-export JAVA_HOME="$APPSDIR/java"
+export JAVA_HOME="$APPSDIR/Java"
 
 # Android
-export ANDROID_HOME="$APPSDIR/android"
+export ANDROID_HOME="$APPSDIR/AndroidSdk"
 export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
