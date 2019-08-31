@@ -34,7 +34,7 @@ Bash files to setup your enviroment and scripts to install needed tools
 - Intellij IDEA
 - WebStorm
 - Android Studio
-- tools in scripts/install
+- Tools in scripts/install
 	
 ## Notes
 - You must make a link in apps64 for each of:
