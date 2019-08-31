@@ -59,8 +59,8 @@ It contains scripts to install:
 - Use `~/.bashrc_user_specific` to add user specific enviroment setup
 
 - You need to add two Virtual Devices:
-	- Big screen device with name **Nexus_5X_API_29**
-	- Small screen device with name **Nexus_S_API_29**
+	- Big screen device with name **Nexus 5X API 29**
+	- Small screen device with name **Nexus S API 29**
 	
 ## Unfinshied work
 - Group installation in one script 
