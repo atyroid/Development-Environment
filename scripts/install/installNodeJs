@@ -4,4 +4,10 @@
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-nvm install node --reinstall-packages-from=node
+isNodeJsNotInstalled=$(command -v nodejs)
+
+if [[ -z $isNodeJsNotInstalled ]]; then
+	nvm install node
+else
+	nvm install node --reinstall-packages-from=node
+fi
