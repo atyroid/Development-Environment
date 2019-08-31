@@ -59,8 +59,6 @@ Bash files to setup your enviroment and scripts to install needed tools
 	- sdkman
 	- java (installed using sdkman)
 	- gradle (installed using sdkman)
-	
-- initEnv script it used for the first time then the script will check and mantain the enviroment through ~/.bash_atyroid
 
 
 ## Unfinshied work
@@ -68,4 +66,4 @@ Bash files to setup your enviroment and scripts to install needed tools
 2- Add script to configure VM acceleration
 3- Make links for IDEs and AndroidSdk in apps64
 4- Check some of configurations if they already done to boost performance of scripts
-	5- Add scripts for Debugger tool
+5- Add scripts for Debugger tool
