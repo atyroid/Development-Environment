@@ -1,9 +1,10 @@
 # link a files and directories
 links () {
 	files=$1
+	path=$HOME/$2
 	for ((k = 0; k < ${#files[*]}; k++))
 	do
-		linkSource="$HOME/source/Development-Environment/${files[$k]}"
+		linkSource="$path/${files[$k]}"
 		linkTarget="$HOME/${files[$k]}"
 	
 		oldSource="readlink -f $linkTarget"
@@ -14,6 +15,8 @@ links () {
 	done
 
 	# remove unneeded variables
+	unset files
+	unset path
 	unset linkSource
 	unset linkTarget
 	unset oldSource
