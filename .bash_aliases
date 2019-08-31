@@ -1,5 +1,5 @@
 # General
-alias ws="nohup $APPSDIR/WebStorm/bin/webstorm.sh & disown"
+alias ws="nohup $APPS_DIR/Jetbrains/Toolbox/apps/WebStorm/bin/webstorm.sh & disown"
 alias scripts="cat package.json | jq -r '.scripts'"
 alias hgrep="history | grep $1"
 alias lzip="unzip -l"
@@ -39,7 +39,7 @@ alias resetyarn="rm yarn.lock && rm -rf node_modules && yarn"
 alias rvrs="adb reverse tcp:8081 tcp:8081"
 alias android_big="emulator -avd Nexus_5X_API_29"
 alias android_small="emulator -avd Nexus_S_API_29"
-alias as="nohup $APPSDIR/AndroidStudio/bin/studio.sh & disown"
+alias as="nohup $APPS_DIR/AndroidStudio/bin/studio.sh & disown"
 alias rr="adb shell am broadcast -a react.native.RELOAD"
 
 # git
@@ -52,4 +52,3 @@ alias kraken="gitkraken ."
 # jest
 alias jw="jest --watch"
 alias jwall="jest --watchAll"
-
