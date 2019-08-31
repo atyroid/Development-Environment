@@ -2,7 +2,7 @@
 
 ## Description
 	
-	bash files to setup your enviroment and scripts to install needed tools
+Bash files to setup your enviroment and scripts to install needed tools
 	
 ## Usage
 
@@ -24,17 +24,17 @@
 	
 ## You should install these tools and IDEs manually 
 	
-	- JetBrains ToolBox
+- JetBrains ToolBox
+
+	1- Change install location to ~/apps64/JetBrains/Toolbox
+	2- Enable keep only the latest version
+	3- Enable Generate Shell scripts
+	4- Change shell scripts location to ~/bin
 	
-		1- Change install location to ~/apps64/JetBrains/Toolbox
-		2- Enable keep only the latest version
-		3- Enable Generate Shell scripts
-		4- Change shell scripts location to ~/bin
-	
-	- Intellij IDEA
-	- WebStorm
-	- Android Studio
-	- tools in scripts/install
+- Intellij IDEA
+- WebStorm
+- Android Studio
+- tools in scripts/install
 	
 ## Notes
 - You must make a link in apps64 for each of:
@@ -64,8 +64,8 @@
 
 
 ## Unfinshied work
-	1- Group installation in one script 
-	2- Add script to configure VM acceleration
-	3- Make links for IDEs and AndroidSdk in apps64
-	4- Check some of configurations if they already done to boost performance of scripts
+1- Group installation in one script 
+2- Add script to configure VM acceleration
+3- Make links for IDEs and AndroidSdk in apps64
+4- Check some of configurations if they already done to boost performance of scripts
 	5- Add scripts for Debugger tool
