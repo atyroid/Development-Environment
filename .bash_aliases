@@ -3,6 +3,7 @@ alias ws="nohup $APPS_DIR/WebStorm/bin/webstorm.sh & disown"
 alias scripts="cat package.json | jq -r '.scripts'"
 alias hgrep="history | grep $1"
 alias lzip="unzip -l"
+alias usedPorts="sudo lsof -i -P -n | grep LISTEN"
 
 # bashrc
 alias openbashrc="gedit ~/.bashrc & disown"
