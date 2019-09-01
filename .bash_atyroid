@@ -9,19 +9,19 @@ shopt -s histappend histreedit cmdhist checkwinsize
 # Applications path
 export APPS_DIR="$HOME/apps64"
 
-# Android
-export ANDROID_HOME="$APPS_DIR/AndroidSdk"
-export PATH="$ANDROID_HOME/emulator:$PATH"
-export PATH="$ANDROID_HOME/tools:$PATH"
-export PATH="$ANDROID_HOME/tools/bin:$PATH"
-export PATH="$ANDROID_HOME/platform-tools:$PATH"
-
 # Source Code path
 export SOURCE_HOME="$HOME/source"
 
 # Scripts path
 export SCRIPTS_HOME="$HOME/scripts"
 export PATH=$SCRIPTS_HOME:$PATH
+
+# Android
+export ANDROID_HOME="$APPS_DIR/AndroidSdk"
+export PATH="$ANDROID_HOME/emulator:$PATH"
+export PATH="$ANDROID_HOME/tools:$PATH"
+export PATH="$ANDROID_HOME/tools/bin:$PATH"
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
